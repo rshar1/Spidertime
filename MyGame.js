@@ -13,6 +13,12 @@ MyGame = function()
     //Load the spriteseet image we are using for our animated sprite
     var gameAssets = [
         {id:'spriteSheetImg',   url:'images/spider_crawl.png'},
+	{id:'bugImage', 	url: 'images/Bug.png'},
+	{id: 'spiderWeb', 	url: 'images/background-spider-web.png'},
+	{id: 'healthBar', 	url: 'images/redsquare.png'},
+	{id: 'background',	url: 'images/background.png'},
+	{id: 'redBug',		url: 'images/redBug.png'},
+	{id: 'yellowBug',	url: 'images/yellowBug.png'},
     ];
     this.assetManager.assignImageAssetList("required", gameAssets);
 
